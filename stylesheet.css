@@ -1,7 +1,13 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(Resources/Roboto-Regular.ttf);
+}
+
 body {
     display: grid;
     grid-template: 1fr 5fr / 1fr 5fr;
     margin: 0%;
+    font-family: Roboto, Helvetica, sans-serif;
 }
 
 .sidebar {
